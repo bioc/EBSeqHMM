@@ -2,7 +2,7 @@ Package: EBSeqHMM
 Type: Package
 Title: Bayesian analysis for identifying gene or isoform expression
         changes in ordered RNA-seq experiments
-Version: 1.16.0
+Version: 1.16.1
 Date: 2015-03-21
 Author: Ning Leng, Christina Kendziorski
 Depends: EBSeq
@@ -14,6 +14,6 @@ Collate: 'EBTest_ext.R' 'EBHMMNBfunForMulti.R' 'EBHMMNBfun.R'
         'EBSeqHMMTest.R' 'GetConfidentCalls.R' 'GetDECalls.R'
         'GetAllPaths.R' 'PlotExp.R'
 BuildVignettes: yes
-biocViews: StatisticalMethod, DifferentialExpression,
+biocViews: ImmunoOncology, StatisticalMethod, DifferentialExpression,
         MultipleComparison, RNASeq, Sequencing, GeneExpression,
         Bayesian, HiddenMarkovModel, TimeCourse
